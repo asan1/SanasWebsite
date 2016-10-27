@@ -202,3 +202,14 @@ small{
   	width:360px;
   }
 }
+@media (max-width: 370px) {
+  .hidden-xxxs {
+    display: none !important;
+  }
+
+  .navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+}
+
+}
